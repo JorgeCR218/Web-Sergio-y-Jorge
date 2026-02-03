@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo con Tabla</title>
+
+  <!-- Enlace al archivo CSS externo -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Listado de Productos</h1>
+  </header>
+
+  <section>
+    <h2>Tabla de ejemplo</h2>
+    <p>Esta tabla muestra algunos productos con su precio y disponibilidad.</p>
+
+    <!-- Buscador -->
+    <input type="text" id="buscador" placeholder="Buscar producto..." onkeyup="filtrarProductos()">
+
+    <!-- Botón mostrar/ocultar -->
+    <button onclick="toggleTabla()">Mostrar / Ocultar tabla</button>
+
+    <!-- Tabla -->
+    <table>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Stock</th>
+      </tr>
+      <tr>
+        <td>Teclado Mecánico</td>
+        <td>59.99 €</td>
+        <td>Disponible</td>
+      </tr>
+      <tr>
+        <td>Ratón Inalámbrico</td>
+        <td>24.50 €</td>
+        <td>Agotado</td>
+      </tr>
+      <tr>
+        <td>Monitor 24"</td>
+        <td>129.00 €</td>
+        <td>Disponible</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Enlace al archivo JavaScript externo -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
